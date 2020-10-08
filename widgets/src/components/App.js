@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from './Search';
+import Dropdown from './Dropdown';
 
 // const items = [
 //   {
@@ -16,10 +16,25 @@ import Search from './Search';
 //   },
 // ];
 
+const options = [
+  {
+    label: 'The Color Red',
+    value: 'red',
+  },
+  {
+    label: 'The Color Green',
+    value: 'green',
+  },
+  {
+    label: 'A Shade of Blue',
+    value: 'blue',
+  },
+];
+
 export default () => {
   return (
     <div>
-      <Search />
+      <Dropdown options={options} />
     </div>
   );
 };
