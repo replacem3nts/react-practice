@@ -4,6 +4,23 @@
       "title": "hello",
       "description": "a streamy streamy stream",
       "id": 1
+    },
+    {
+      "title": "Second Stream",
+      "description": "The streamiest of all streams",
+      "id": 2
+    },
+    {
+      "title": "My Stream",
+      "description": "This one is mine and it's even streamier",
+      "userId": "115884494916119620638",
+      "id": 3
+    },
+    {
+      "title": "Programmatic Nav",
+      "description": "Let's see if this is streamy",
+      "userId": "115884494916119620638",
+      "id": 4
     }
   ]
 }
